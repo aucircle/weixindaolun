@@ -1,0 +1,26 @@
+<view class="page;all">
+    <view class="layout_horizontal">
+          <view class="button-sp-area1" >
+
+            <button class="weui-btn;circle;" plain="true" type="primary" bindtap='control'>calm</button>
+          </view>
+          <view class="button-sp-area1">
+            <button class="weui-btn;circle;"   plain="true" type="primary" bindtap='control'>warm</button>
+          </view>   
+    </view>
+    <view class="line" style='background-color:white'></view>
+    <view class="layout_horizontal">
+          <view class="button-sp-area2">
+            <button class="weui-btn;circle;" type="default" plain="true" bindtap='control'>up</button>
+          </view> 
+          <view class="button-sp-area2">
+            <button class="weui-btn;circle;" type="default"  plain="true" bindtap='control' >down</button>
+          </view>
+    </view>
+    <view><button bindtap='control'>on/off</button></view>
+    <view>
+    {{Number}}
+    </view>
+</view>
+
+

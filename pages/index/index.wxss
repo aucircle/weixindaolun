@@ -1,0 +1,61 @@
+.button-sp-area1{
+
+    margin: 0 auto;
+
+    padding-top: 15px;
+
+    width: 30%;
+    margin-left:12px;
+
+}
+
+.button-sp-area2{
+
+    margin: 0 auto;
+
+    padding-top: 100px;
+
+    width: 30%;
+    margin-right: 12px;
+
+}
+ .circle{
+    width: 65px;
+    height: 65px;
+    border: 0 solid #ffffffc7;
+    border-radius: 500px;
+}
+
+.layout_horizontal{
+  height: 100rpx;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+}
+
+/*纵向布局  */
+.layout_vertical{
+  height: 100rpx;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: column;
+}
+
+/*划线  */
+
+.line {
+   background-color: blue;
+   height: 20rpx;
+   width: 100%;
+}
+
+.flex-wrp{display:flex;}
+
+.color1{
+  background-color: rgb(19, 247, 255)
+}
+.all{
+   padding-top:80px;
+}
+
+
